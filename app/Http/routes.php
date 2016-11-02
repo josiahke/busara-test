@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::any('/', function () {
     return view('welcome');
 });
+
+Route::post('/save/person',['as' => 'save.person', 'uses' => 'FrontController@create_people']);
+Route::any('/view/list', ['nocsrf' => true,'as' => 'view.list', 'uses' => 'FrontController@view_people']);
