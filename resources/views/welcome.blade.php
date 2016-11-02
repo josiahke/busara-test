@@ -89,6 +89,7 @@
                             <table id="myTable1" style="margin-top: 10px;" class="table table-striped table-bordered" cellspacing="0" width="100%">
                                 <thead>
                                 <tr>
+                                    <th>Id</th>
                                     <th>Name</th>
                                     <th>Age</th>
                                     <th>Phone</th>
@@ -104,20 +105,32 @@
                             {!! Form::open(array('route' => array('save.person'),'method'=>'POST')) !!}
                             <div class="form-body">
                                 <div class="row">
-                                    <div class="form-group">
+                                    <div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
                                         <label class="">Name</label>
                                         {!! Form::text('name', null,
                                         ['class'=>'form-control validate[required]','placeholder'=>'' , 'required']) !!}
+                                        @if ($errors->has('name'))
+                                            <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                        </span> @endif
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group {{ $errors->has('age') ? ' has-error' : '' }}">
                                         <label class="">Age</label>
                                         {!! Form::text('age', null,
                                         ['class'=>'form-control validate[required,custom[integer]]','placeholder'=>'' , 'required']) !!}
+                                        @if ($errors->has('age'))
+                                            <span class="help-block">
+                                        <strong>{{ $errors->first('age') }}</strong>
+                                        </span> @endif
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group {{ $errors->has('phone') ? ' has-error' : '' }}">
                                         <label class="">Phone</label>
                                         {!! Form::text('phone', null,
                                         ['class'=>'form-control validate[required,custom[number]]','placeholder'=>'' , 'required']) !!}
+                                        @if ($errors->has('phone'))
+                                            <span class="help-block">
+                                        <strong>{{ $errors->first('phone') }}</strong>
+                                        </span> @endif
                                     </div>
                                     {!! Form::submit('Save', ['class' => 'btn green', 'id' =>'regsubmit']) !!}
                                 </div>
@@ -175,7 +188,8 @@
                 {data: 'id', name: 'id', orderable: true, searchable: true },
                 {data: 'name', name: 'name', orderable: true, searchable: true },
                 {data: 'age', name: 'age', orderable: true, searchable: true },
-                {data: 'phone', name: 'phone', orderable: true, searchable: true}
+                {data: 'phone', name: 'phone', orderable: true, searchable: true},
+                {data: 'created_at', name: 'created_at', orderable: true, searchable: true}
             ]
         });
     </script>

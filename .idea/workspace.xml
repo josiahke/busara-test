@@ -34,8 +34,8 @@
       <file leaf-file-name="FrontController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+            <state relative-caret-position="284">
+              <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#123#159#0#PHP" expanded="true" />
@@ -47,15 +47,15 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+            <state relative-caret-position="1868">
+              <caret line="186" column="22" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
               <folding>
-                <marker date="1478115210947" expanded="true" signature="5241:5384" ph="..." />
-                <marker date="1478115210947" expanded="true" signature="5253:5382" ph="..." />
-                <marker date="1478115210947" expanded="true" signature="5603:5761" ph="..." />
-                <marker date="1478115210947" expanded="true" signature="5615:5759" ph="..." />
-                <marker date="1478115210947" expanded="true" signature="5982:6141" ph="..." />
-                <marker date="1478115210947" expanded="true" signature="5994:6139" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="5336:5479" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="5348:5477" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="6022:6180" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="6034:6178" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="6725:6884" ph="..." />
+                <marker date="1478115679674" expanded="true" signature="6737:6882" ph="..." />
               </folding>
             </state>
           </provider>
@@ -375,16 +375,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478111062380</updated>
-      <workItem from="1478111063893" duration="4149000" />
+      <workItem from="1478111063893" duration="4662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4149000" />
+    <option name="totallyTimeSpent" value="4662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -475,23 +475,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+        <state relative-caret-position="1868">
+          <caret line="186" column="22" selection-start-line="186" selection-start-column="22" selection-end-line="186" selection-end-column="22" />
           <folding>
-            <marker date="1478115210947" expanded="true" signature="5241:5384" ph="..." />
-            <marker date="1478115210947" expanded="true" signature="5253:5382" ph="..." />
-            <marker date="1478115210947" expanded="true" signature="5603:5761" ph="..." />
-            <marker date="1478115210947" expanded="true" signature="5615:5759" ph="..." />
-            <marker date="1478115210947" expanded="true" signature="5982:6141" ph="..." />
-            <marker date="1478115210947" expanded="true" signature="5994:6139" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="5336:5479" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="5348:5477" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="6022:6180" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="6034:6178" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="6725:6884" ph="..." />
+            <marker date="1478115679674" expanded="true" signature="6737:6882" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="284">
+          <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="e#123#159#0#PHP" expanded="true" />
