@@ -7,7 +7,6 @@
         <meta content="" name="description" />
         <meta content="" name="author" />
         <meta name="google-site-verification" content="LXhS-qEHTAhwAYQH6QOxYR0179baAyj4fI1RVAVDKiE" />
-
         {{--<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">--}}
         {{--<link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">--}}
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
